@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+*.log
+.npmrc
+NPM_YUKLE.bat
+.DS_Store

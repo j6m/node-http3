@@ -1,0 +1,49 @@
+{
+  "name": "node-http3",
+  "version": "3.1.0",
+  "description": "Zero-dependency, 100% pure Node.js HTTP/3 & Enterprise QUIC v1 client (0-RTT, PSK, NoDelay, Corking, Socket Tuning, Connection Migration, Key Update, CUBIC/BBR, DPLPMTUD, QPACK)",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "bench": "node benchmark.js"
+  },
+  "keywords": [
+    "http3",
+    "h3",
+    "quic",
+    "qpack",
+    "tls1.3",
+    "0rtt",
+    "pure-js",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j6m/node-http3.git"
+  },
+  "homepage": "https://github.com/j6m/node-http3#readme",
+  "bugs": {
+    "url": "https://github.com/j6m/node-http3/issues"
+  },
+  "license": "MIT"
+}
+

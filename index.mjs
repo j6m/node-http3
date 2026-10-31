@@ -1,0 +1,42 @@
+import http3 from './index.js';
+
+export const {
+  connect,
+  fetch,
+  request,
+  get,
+  head,
+  post,
+  put,
+  patch,
+  closePool,
+  clearCaches,
+  defaultAgent,
+  defaultSessionStore,
+  defaultDnsCache,
+  SessionTicketStore,
+  Agent,
+  Http3Agent,
+  Http3ClientSession,
+  Http3ClientStream,
+  Http3Response,
+  QuicConnection,
+  QuicCongestionController,
+  DnsCache,
+  QpackEncoder,
+  QpackDecoder,
+  DynamicTable,
+  QpackError,
+  VarintReader,
+  VarintWriter,
+  VarintError,
+  qpack,
+  varint,
+  packet,
+  frame,
+  h3frame,
+  constants,
+} = http3;
+
+export const del = http3.delete;
+export default http3;
